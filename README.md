@@ -1,2 +1,2 @@
 # Minecraft-Server-SMP
-My website for my minecraft server
+Website for my minecraft server
