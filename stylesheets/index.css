@@ -109,10 +109,10 @@
 }
 
 .rounded-button a {
-    text-decoration: none; /* Remove underline from the link */
-    color: inherit;        /* Inherit the button's text color */
-    display: inline-block; /* Ensure the link spans the button */
-    width: 100%;           /* Make the link fill the button */
-    height: 100%;          /* Match the button height */
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
 }
   
