@@ -44,18 +44,18 @@ body {
 }
 
 .navbar ul {
-    margin-left: auto; /* Push the links to the right */
+    margin-left: auto;
 }
 
 .float-container {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 2rem auto; /* This centers the container horizontally */
+    margin: 2rem auto;
     padding: 20px;
-    width: 1250px; /* Adjust width as needed */
+    width: 1250px;
     text-align: center;
-    display: flex; /* Use flexbox to align items horizontally */
-    align-items: center; /* Center the items vertically */
-    justify-content: center; /* Center the content horizontally */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .float-child {
@@ -72,7 +72,7 @@ body {
 
 .float-child h2 {
     font-size: 30px;
-    font-weight: bold; /* Corrected font-weight */
+    font-weight: bold;
 }
 
 .float-child p {
