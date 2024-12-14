@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+   }
+   
+   
+   body {
+    font-family: Arial, sans-serif;
+    background-color: #090a0f;
+    color: white;
+    list-style: none;
+   }
+   
+   
+   .navbar {
+    padding: 0;
+    background-color: #2e9611;
+    line-height: 60px;
+    width: 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: flex;
+   }
+   
+   
+   .navbar #header-title {
+    font-size: 2rem;
+    float: left;
+   }
+   
+   
+   .navbar li {
+    list-style: none;
+    display: inline;
+    padding-right: 10px;
+    float: right;
+   }
+   
+   
+   .navbar li a {
+    text-decoration: none;
+    color: white;
+   }
+   
+   
+   .navbar li a:hover {
+    color: #005383;
+   }
+
+   .navbar ul {
+    margin-left: auto; /* Push the links to the right */
+}
+
+
+   .float-container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2rem auto;
+    padding: 20px;
+    width: 1200px;
+    text-align: center;
+  }
+  
+  .float-child {
+    margin: 30px;
+    padding: 50px;
+    width: 500px;
+    height: 100;
+    display: inline-block;
+    border-radius: 30px;
+    background-color: #00416f;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 15px 0px #3b8526;
+  }
+  
+  .float-child h2 {
+    font-size: 30px;
+    font-style: bolder;
+  }
+  
+  .float-child p {
+    text-align: center;
+  }
+
+
+
+.rounded-button {
+    background-color: #3b8526;
+    color: #fff;
+    border: none;
+    border-radius: 500px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.rounded-button:hover {
+    background-color: #1a3b12;
+    transform: scale(1.1);
+}
+
+.rounded-button:active {
+    background-color: #1a3b12;
+    transform: scale(1.05);
+}
+
+.rounded-button a {
+    text-decoration: none; /* Remove underline from the link */
+    color: inherit;        /* Inherit the button's text color */
+    display: inline-block; /* Ensure the link spans the button */
+    width: 100%;           /* Make the link fill the button */
+    height: 100%;          /* Match the button height */
+}
+  

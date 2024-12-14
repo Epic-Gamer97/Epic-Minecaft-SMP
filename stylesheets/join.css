@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #090a0f;
+    color: white;
+    list-style: none;
+}
+
+.navbar {
+    padding: 0;
+    background-color: #2e9611;
+    line-height: 60px;
+    width: 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: flex;
+}
+
+.navbar #header-title {
+    font-size: 2rem;
+    float: left;
+}
+
+.navbar li {
+    list-style: none;
+    display: inline;
+    padding-right: 10px;
+    float: right;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li a:hover {
+    color: #005383;
+}
+
+.navbar ul {
+    margin-left: auto; /* Push the links to the right */
+}
+
+.float-container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2rem auto; /* This centers the container horizontally */
+    padding: 20px;
+    width: 1250px; /* Adjust width as needed */
+    text-align: center;
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: center; /* Center the items vertically */
+    justify-content: center; /* Center the content horizontally */
+}
+
+.float-child {
+    margin: 30px;
+    padding: 50px;
+    width: 550px;
+    height: 100;
+    display: inline-block;
+    border-radius: 30px;
+    background-color: #00416f;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 15px 0px #3b8526;
+}
+
+.float-child h2 {
+    font-size: 30px;
+    font-weight: bold; /* Corrected font-weight */
+}
+
+.float-child p {
+    text-align: center;
+}
+
